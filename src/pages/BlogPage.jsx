@@ -35,9 +35,9 @@ const BlogPage = () => {
               <Link to="/blog1" className="blog-link">
                 <img src={Blog1} alt="Blog 1" />
                 <div className="blog-info">
-                  <h3>Judul Blog 1</h3>
-                  <p>Tanggal: [Tanggal Blog 1]</p>
-                  <p>Deskripsi: [Deskripsi Blog 1]</p>
+                  <h3>Meningkatkan Kesuburan Tanah Alami</h3>
+                  <p>Tanggal: [16 Mei 2024 ]</p>
+                  <p>Deskripsi: [Tanah yang dapat menghasilkan panen yang melimpah sepanjang tahun jika ditanami dapat disebut sebagai tanah yang subur.... ]</p>
                 </div>
               </Link>
             </Col>
@@ -45,9 +45,9 @@ const BlogPage = () => {
               <Link to="/blog2" className="blog-link">
                 <img src={Blog2} alt="Blog 2" />
                 <div className="blog-info">
-                  <h3>Judul Blog 2</h3>
-                  <p>Tanggal: [Tanggal Blog 2]</p>
-                  <p>Deskripsi: [Deskripsi Blog 2]</p>
+                  <h3>KESUBURAN TANAH : Pakar: Tanah di Indonesia 70 Persen Tidak Subur</h3>
+                  <p>Tanggal: [12 Mei 2024]</p>
+                  <p>Deskripsi: [Kesuburan tanah di Indonesia ternyata hanya mencapai 30 persen. Meski demikian 70% tanah yang tidak subur tersebut masih bisa dimanfaatkan....]</p>
                 </div>
               </Link>
             </Col>
@@ -55,9 +55,9 @@ const BlogPage = () => {
               <Link to="/blog3" className="blog-link">
                 <img src={Blog3} alt="Blog 3" />
                 <div className="blog-info">
-                  <h3>Judul Blog 3</h3>
-                  <p>Tanggal: [Tanggal Blog 3]</p>
-                  <p>Deskripsi: [Deskripsi Blog 3]</p>
+                  <h3>Kasgot, Alternatif Pupuk Ramah Lingkungan</h3>
+                  <p>Tanggal: [6 Mei 2024]</p>
+                  <p>Deskripsi: [Mengolah maggot dari sisa makanan maggot yang dikumpulkan dari sisa sayur sayuran, buah-buahan....]</p>
                 </div>
               </Link>
             </Col>
