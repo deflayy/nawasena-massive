@@ -1,0 +1,136 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Fitur */
+.header-fitur {
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.header-fitur h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.header-fitur p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.download-button {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Image Fitur */
+.img-tangan-hp {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .header-fitur {
+    padding: 80px 0;
+  }
+
+  .header-fitur h1 {
+    font-size: 30px;
+  }
+
+  .header-fitur p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header-fitur {
+    padding: 60px 0;
+  }
+
+  .header-fitur h1 {
+    font-size: 24px;
+  }
+
+  .header-fitur p {
+    font-size: 14px;
+  }
+}
+/* Fitur Page Content */
+.fitur-page-content {
+  padding: 50px 0;
+  display: flex;
+  align-items: center; /* Mengatur agar konten berada di tengah vertikal */
+}
+
+.fitur-page-content > .container {
+  display: flex;
+  justify-content: space-between; /* Mengatur agar kolom berada di dua sisi */
+}
+
+.fitur-page-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: right; /* Mengatur teks menjadi rata kanan */
+}
+
+.fitur-page-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-align: right; /* Mengatur teks menjadi rata kanan */
+}
+
+/* Image Fitur */
+.img-tangan-hp {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto; /* Mengatur agar gambar berada di tengah */
+  margin-right: auto; /* Mengatur agar gambar berada di tengah */
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .fitur-page-content {
+    padding: 40px 0;
+    flex-direction: column; /* Mengubah tata letak menjadi vertikal pada perangkat dengan lebar layar kecil */
+    text-align: center; /* Mengatur teks menjadi tengah */
+  }
+
+  .fitur-page-content h2,
+  .fitur-page-content p {
+    text-align: center; /* Mengatur teks menjadi tengah pada perangkat dengan lebar layar kecil */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .fitur-page-content {
+    padding: 30px 0;
+  }
+
+  .fitur-page-content h2 {
+    font-size: 18px;
+  }
+
+  .fitur-page-content p {
+    font-size: 13px;
+  }
+}
