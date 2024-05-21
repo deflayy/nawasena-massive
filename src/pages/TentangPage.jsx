@@ -14,12 +14,12 @@ import ticonn2 from "../img/t3.png";
 import ticonn3 from "../img/t4.png";
 
 const profiles = [
-  { id: 1, name: "John", src: profil1 },
-  { id: 2, name: "Doe", src: profil2 },
-  { id: 3, name: "Jane", src: profil3 },
-  { id: 4, name: "Smith", src: profil4 },
-  { id: 5, name: "Alice", src: profil5 },
-  { id: 6, name: "Bob", src: profil6 },
+  { id: 1, name: "Moch Ferdiansyah", src: profil1 },
+  { id: 2, name: "Azlina", src: profil2 },
+  { id: 3, name: "I Putu The fly Arnawa", src: profil3 },
+  { id: 4, name: "Muhammad Viddya Zufar", src: profil4 },
+  { id: 5, name: "Annisa Armenda", src: profil5 },
+  { id: 6, name: "Ryzki Fachturahman", src: profil6 },
 ];
 
 const TentangPage = () => {
